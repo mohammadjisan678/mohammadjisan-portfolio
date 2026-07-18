@@ -141,3 +141,97 @@ ul li{
     margin:20px 0;
     border-radius:10px;
 }
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.8;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.profile{
+width:180px;
+height:180px;
+border-radius:50%;
+border:5px solid #38bdf8;
+margin-bottom:20px;
+}
+
+.hero h1{
+font-size:60px;
+color:#38bdf8;
+}
+
+.subtitle{
+font-size:24px;
+margin:20px 0;
+}
+
+.btn{
+display:inline-block;
+padding:12px 28px;
+background:#38bdf8;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-size:18px;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:35px;
+padding:25px;
+background:#111827;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+section{
+max-width:1000px;
+margin:auto;
+padding:80px 20px;
+}
+
+section h2{
+font-size:40px;
+margin-bottom:25px;
+color:#38bdf8;
+}
+
+ul{
+padding-left:20px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:12px;
+margin-top:20px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#111827;
+margin-top:50px;
+}
