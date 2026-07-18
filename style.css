@@ -105,4 +105,39 @@ p{
 
     font-size:18px;
 
+}section{
+    max-width:900px;
+    margin:80px auto;
+    padding:20px;
+}
+
+section h2{
+    color:#4db8ff;
+    font-size:38px;
+    margin-bottom:20px;
+}
+
+section p{
+    color:white;
+    font-size:20px;
+    line-height:1.8;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+ul li{
+    background:#1b2845;
+    margin:10px 0;
+    padding:15px;
+    border-radius:8px;
+}
+
+.project{
+    background:#1b2845;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
 }
